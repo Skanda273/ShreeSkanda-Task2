@@ -664,3 +664,5 @@ app.get('/api/health', (req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 Task 2 Backend Server running on http://localhost:${PORT}`);
 });
+
+module.exports = app;
